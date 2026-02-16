@@ -2,7 +2,7 @@ use std::collections::HashMap;
 use std::fs;
 
 #[derive(Debug)]
-//課題1
+//<<課題1>>
 //設定ファイルの型を定義
 pub enum ConfigValue {
     String(String),
@@ -59,7 +59,7 @@ fn insert_recursive(map: &mut HashMap<String, ConfigValue>, keys: &[&str], value
     }
 }
 
-//課題2
+//<<課題2>>
 //スキーマファイルの読み込み
 pub fn parse_schema(path: &str) -> Result<HashMap<String, String>, Box<dyn std::error::Error>> {
     let content = fs::read_to_string(path)?; //ファイルを読み込む
