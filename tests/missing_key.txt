@@ -1,0 +1,4 @@
+debug = true
+log.file = /var/log/console.log
+log.name = default.log
+retry = 3
