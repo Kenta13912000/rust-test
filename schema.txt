@@ -1,5 +1,0 @@
-endpoint = string
-debug = bool
-log.file = string
-log.name = string
-retry = integer
